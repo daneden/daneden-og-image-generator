@@ -54,7 +54,7 @@ const generateHTML = (title = "Hello world") => {
         position: absolute;
         top: 50%;
         left: 66px;
-        transform: translateY(-50%);
+        transform: translateY(-55%);
         margin: 0;
       }
 
