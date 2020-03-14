@@ -4,11 +4,10 @@
       "src": "/api(.*)",
       "dest": "/api$1",
       "headers": {
-        "cache-control": "s-maxage=86400, stale-while-revalidate",
+        "cache-control": "public, max-age=31536000, s-maxage=86400, stale-while-revalidate",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
-        "x-de-test-header": "TEST"
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
       }
     }
   ]
