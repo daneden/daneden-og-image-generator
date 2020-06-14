@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@now/node": "^1.5.0",
+    "@now/node": "^1.7.0",
     "@types/sharp": "^0.24.0",
     "chrome-aws-lambda": "^2.1.1",
     "puppeteer-core": "^2.1.1",
