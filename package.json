@@ -8,6 +8,6 @@
     "@types/sharp": "^0.24.0",
     "chrome-aws-lambda": "^2.1.1",
     "puppeteer-core": "^2.1.1",
-    "sharp": "^0.25.1"
+    "sharp": "^0.25.3"
   }
 }
